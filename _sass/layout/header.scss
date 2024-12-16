@@ -84,7 +84,7 @@ header#navigation {
         } // header#navigation nav ul li a
 
         &:last-child a {
-          color: color(aubergine);
+          color: color(primary_button_text);
 
           &:hover {
             color: color(mackerel);
@@ -215,7 +215,7 @@ header#navigation {
 
           &:last-child {
             a {
-              @include button($background-color: aubergine, $color: white)
+              @include button($background-color: primary_teal, $color: color(primary_button_text), $hover-background-color: color(primary_hover_teal), $hover-text-color: color(primary_hover_text))
             } // @min-width(tablet_large) header#navigation nav ul li:last-child a
           } // @min-width(tablet_large) header#navigation nav ul li:last-child
 
