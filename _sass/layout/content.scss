@@ -372,7 +372,7 @@ article {
 
   aside {
     padding: 10px;
-    background-color: color(aubergine, 50%);
+    background-color: color(secondary_teal, 50%);
     color: white;
 
     h3, h4, h5, h6 {
@@ -388,12 +388,12 @@ article {
     } // article aside p:first-child
 
     a {
-      color: color(aubergine, 15%);
-      border-color: color(aubergine, 35%);
+      color: color(secondary_teal, 15%);
+      border-color: color(secondary_teal, 35%);
 
       &:hover {
-        color: color(aubergine, 5%);
-        border-color: color(aubergine, 25%);
+        color: color(secondary_teal, 5%);
+        border-color: color(secondary_teal, 25%);
       } // article aside a:hover
 
       @include external-href('deliveroo.engineering') {
@@ -424,12 +424,12 @@ article {
     } // @min-width(desktop_small) article aside
 
     blockquote {
-      color: color(aubergine, 15%);
-      border-color: color(aubergine, 40%);
+      color: color(secondary_teal, 15%);
+      border-color: color(secondary_teal, 40%);
     } // article aside blockquote
 
     code.highlighter-rouge {
-      background: color(aubergine, 60%);
+      background: color(secondary_teal, 60%);
     } // article aside code.highlighter-rouge
   } // article aside
 
@@ -469,7 +469,7 @@ article {
       padding: 5px;
 
       &:target {
-        background-color: color(aubergine, 10%);
+        background-color: color(secondary_teal, 10%);
       } // article div.footnotes li:target
 
       p {

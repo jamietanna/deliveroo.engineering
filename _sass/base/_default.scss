@@ -1,4 +1,4 @@
-@mixin link($color: aubergine) {
+@mixin link($color: secondary_teal) {
   text-decoration: none;
   color: color($color, 75%);
   transition-property: color, border;
@@ -13,10 +13,10 @@
 } // @link
 
 a {
-  @include link(aubergine);
+  @include link(secondary_teal);
   @include external-href('deliveroo.engineering') {
     &::after {
-      @include image-replacement('/images/external_link_aubergine', 12px, 12px, $type: 'svg');
+      @include image-replacement('/images/external_link_teal', 12px, 12px, $type: 'svg');
       display: inline-block;
       transition-property: opacity;
       transition-duration: 0.4s;

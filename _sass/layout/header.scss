@@ -84,7 +84,7 @@ header#navigation {
         } // header#navigation nav ul li a
 
         &:last-child a {
-          color: color(primary_button_text);
+          color: color(secondary_teal);
 
           &:hover {
             color: color(mackerel);
@@ -155,7 +155,7 @@ header#navigation {
           border-left: 4px solid transparent;
 
           &.selected {
-            border-color: color(aubergine);
+            border-color: color(secondary_teal);
           } // @max-width(tablet_large) header#navigation nav ul li.selected
 
           &#logo {
@@ -222,7 +222,7 @@ header#navigation {
           &.selected {
             a {
               display: inline-block;
-              border-color: color(aubergine);
+              border-color: color(secondary_teal);
               height: $navbar-height - 2px;
             } // @min-width(tablet_large) header#navigation nav ul li.selected a
           } // @min-width(tablet_large) header#navigation nav ul li.selected
