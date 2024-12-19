@@ -4,7 +4,7 @@ title: deliveroo.engineering
 ---
 
 <h1>The Deliveroo engineering team blog</h1>
-<p class="tagline">Only awesome code.</p>
+<p class="tagline">Impact, innovation, and growth drives everything we do. Our tech teams tackle some of the most exciting challenges, building systems that impact millions daily.</p>
 
 <section id="latest-post">
   <div class="post latest">
@@ -22,7 +22,7 @@ title: deliveroo.engineering
 {% if site.posts.size > site.data.offsets.latest_articles %}
   <hr>
 
-  <h2>Recent Stories</h2>
+  <h2>Latest from Our Engineers</h2>
   <section id="recent-posts">
     {% for _page in site.posts limit: site.data.offsets.recent_articles offset: site.data.offsets.latest_articles %}
       <div class="post recent">
@@ -44,7 +44,7 @@ title: deliveroo.engineering
 {% if site.posts.size > other_articles_offset %}
   <hr>
 
-  <h2>Other Stories</h2>
+  <h2>More Engineering Stories</h2>
   <section id="other-articles">
     <ul class="articles">
       {% for _page in site.posts limit: site.data.offsets.other_articles offset: other_articles_offset %}
