@@ -1,0 +1,3 @@
+a.cc-btn.cc-dismiss{
+  @include button($background-color: primary_teal, $color: color(primary_button_text), $hover-background-color: color(primary_hover_teal), $hover-text-color: color(primary_hover_text))
+}
