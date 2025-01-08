@@ -20,7 +20,7 @@ body {
 
 $navigation-padding:  10px;
 $hamburger-menu-size: 17px;
-$navbar-height:       60px;
+$navbar-height:       80px;
 
 header#navigation {
   background-color: white;
@@ -46,11 +46,11 @@ header#navigation {
 
           a {
             @include image-replacement('/images/logo_engineering',
-              $background-width: 175px,
-              $background-height: 40px,
+              $background-width: auto,
+              $background-height: 60px,
               $type: 'svg') {
               width: 175px;
-              height: 40px;
+              height: 60px;
               background-position: center;
             };
             border: none;
@@ -131,7 +131,7 @@ header#navigation {
         @include image-replacement('/images/hamburger',
           $background-width: $hamburger-menu-size,
           $background-height: $hamburger-menu-size,
-          $height: 40px,
+          $height: 60px,
           $type: 'svg') {
           background-position: center;
         };
