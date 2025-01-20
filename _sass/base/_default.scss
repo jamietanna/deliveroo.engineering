@@ -34,7 +34,7 @@ a {
 } // a
 
 code, kbd, pre, samp {
-  @include font-family(monospace, 'SourceCodePro');
+  @include font-family(monospace, 'PlexSans');
   line-height: 1.4;
 }
 
@@ -53,15 +53,15 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-weight: 600;
-  font-size: font-size(large-heading);
+  font-weight: 800;
+  font-size: font-size(extra-large-heading);
   line-height: 48px;
   margin: 0.5em 0;
   text-align: center;
 }
 
 h2 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: font-size(medium-heading);
 
   code {
@@ -70,6 +70,7 @@ h2 {
 }
 
 h3 {
+  @include font-family(monospace, 'PlexSans');
   font-size: font-size(small-heading);
 
   code {
