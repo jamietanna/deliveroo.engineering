@@ -24,7 +24,6 @@ $navbar-height:       80px;
 
 header#navigation {
   background-color: white;
-  box-shadow: 0 0 2px color(soba);
   min-height: $navbar-height;
 
   nav {
@@ -74,6 +73,7 @@ header#navigation {
 
           &:hover {
             color: color(mackerel);
+            text-decoration: none;
           } // header#navigation nav ul li a:hover
 
           @include external-href('deliveroo.engineering') {
@@ -209,10 +209,6 @@ header#navigation {
             } // @min-width(tablet_large) header#navigation nav ul li#logo a
           } // @min-width(tablet_large) header#navigation nav ul li#logo
 
-          a {
-            border-bottom: 2px solid transparent;
-          } // @min-width(tablet_large) header#navigation nav ul li a
-
           &:last-child {
             a {
               @include button($background-color: primary_teal, $color: color(primary_button_text), $hover-background-color: color(primary_hover_teal), $hover-text-color: color(primary_hover_text))
@@ -222,7 +218,6 @@ header#navigation {
           &.selected {
             a {
               display: inline-block;
-              border-color: color(secondary_teal);
               height: $navbar-height - 2px;
             } // @min-width(tablet_large) header#navigation nav ul li.selected a
           } // @min-width(tablet_large) header#navigation nav ul li.selected
