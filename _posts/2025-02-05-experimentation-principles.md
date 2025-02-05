@@ -6,8 +6,8 @@ authors:
   - "Jamie Edgecombe"
   - "Matleen Makko-Boronad"
 excerpt: >
-  Experimentation at Deliveroo has significantly boosted our innovation as a company. It has allowed us to explore new ideas, protected us from unforeseen challenges by preventing wasted time and resources on ineffective initiatives, and promoted intellectual honesty by validating our assumptions. 
-date: 2025-01-13
+  Experimentation at Deliveroo has significantly boosted our innovation as a company. It has allowed us to explore new ideas, protected us from unforeseen challenges by preventing wasted time and resources on ineffective initiatives, and promoted intellectual honesty by validating our assumptions.
+date: 2025-02-05
 ---
 
 Experimentation at Deliveroo has significantly boosted our innovation as a company. It has allowed us to explore new ideas, protected us from unforeseen challenges by preventing wasted time and resources on ineffective initiatives, and promoted intellectual honesty by validating our assumptions.
@@ -26,7 +26,7 @@ As we have matured technically and increasingly democratised our technical capab
 These enable us to uphold high-quality experimentation whilst achieving our current goal of broadening the pool of Deliveroo employees capable of running experiments.
 
 
-## Principle 1: Every experiment starts with a clear hypothesis and success criteria. 
+## Principle 1: Every experiment starts with a clear hypothesis and success criteria.
 
 Experiments work best when they are specific. We formulate our hypothesis based on past experiments, anecdotes, user research, and competitive analysis - leveraging existing learnings helps us design better experiments. We avoid experimenting aimlessly just to ‘see what happens’, risking learning nothing.
 Experiments are a highly valuable resource and unstructured experimentation is wasteful.
@@ -43,11 +43,11 @@ We set success criteria for rollout before the experiment starts. It may be temp
 
 ## Principle 2: You don’t have to be a data scientist to engage with and run experiments
 
-We follow standardised processes and use common tooling (our Experimentation Platform), so that people across our tech org can test their ideas safely. We also want to avoid stakeholders having to do mental gymnastics when comparing one team's impact vs. another's. By making the results accessible to everyone, we disseminate learnings, amplifying their value. 
+We follow standardised processes and use common tooling (our Experimentation Platform), so that people across our tech org can test their ideas safely. We also want to avoid stakeholders having to do mental gymnastics when comparing one team's impact vs. another's. By making the results accessible to everyone, we disseminate learnings, amplifying their value.
 
 **Example: Changing the search bar placeholder text in the Consumer app**
 
-Based on previous experiments, we have identified content changes in our consumer, rider, and restaurant applications as an area with significant potential for optimisation and impact. 
+Based on previous experiments, we have identified content changes in our consumer, rider, and restaurant applications as an area with significant potential for optimisation and impact.
 
 To facilitate additional experimentation in this area, we have recently enhanced our experimentation back-end to integrate our Experimentation Platform with our content tool. This integration empowers the content team to design and execute experiments without requiring coding expertise.
 
@@ -55,14 +55,12 @@ In a recent experiment, we tested alterations to the search bar placeholder text
 
 <table align="center">
   <th><tr><td><b>Control</b></td><td><b>Variant</b></td></tr></th>
-  <tr><td><img width="283" alt="image" src="https://github.com/user-attachments/assets/2a46c83b-2620-4d12-ac77-b0113ab75408" />
-</td><td><img width="283" alt="image" src="https://github.com/user-attachments/assets/41329463-3919-4188-9325-94cdff391851" />
-</td></tr>
+  <tr><td colspan="2"><img alt="Control search using the phrase 'Restaurants, groceries, dishes'. Variant search using the phrase 'What are you searching for?'" src="/images/posts/experimentation-principles/control_variant.png" /></td></tr>
 </table>
 
-## Principle 3: We communicate the uncertainty of our experiment results. 
+## Principle 3: We communicate the uncertainty of our experiment results.
 
-Although experiment results give us our most precise insight into the effects of the changes we make, limitations in experiment design and natural sample variability inherently result in uncertainty. We interrogate our results carefully in the broader context of our business and openly acknowledge the limitations of our results. For example, are there trends that might change our interpretation if the experiment was run for longer? This empowers stakeholders to make informed decisions. 
+Although experiment results give us our most precise insight into the effects of the changes we make, limitations in experiment design and natural sample variability inherently result in uncertainty. We interrogate our results carefully in the broader context of our business and openly acknowledge the limitations of our results. For example, are there trends that might change our interpretation if the experiment was run for longer? This empowers stakeholders to make informed decisions.
 
 To communicate effectively, consistency is valuable. While there are various effective ways to convey uncertainty, using diverse approaches increases the risk of misinterpretation. Our experimentation platform computes and presents statistical uncertainty in a consistent manner. We also maintain a style guide, with recommendations on how to describe experimental results in written documents and make deductions based on uncertainty levels.
 
@@ -99,7 +97,7 @@ We recently re-introduced the ability to 'favourite' restaurants, without runnin
 - There was value in moving quickly by exposing our whole user base to the feature and maximising adoption, since it was a prerequisite for future features that we did want to experiment on (e.g., creating a ‘favourites’ carousel).
 - The experiment would have needed to run for a substantial amount of time for us to detect any change in business metrics because we needed to first give users the opportunity to adopt the feature.
 
-## Principle 5: Experiments guide, not rule, our decisions. 
+## Principle 5: Experiments guide, not rule, our decisions.
 
 Experiments provide real-world data to either support or challenge our intuition. Whilst experiments can give us robust results in the short term, they only provide information for a specific change for a snapshot in time and provide limited answers on long-term behavioural changes of our consumers, riders and partners. We also need to use a broader set of information such as the seasonal changes, where we are in the business cycle, user research, trends in customer preferences, leadership experience and knowledge of our industry. With this understanding of the broader context of our business, we will then use various quantitative methods, including experiments, to develop our understanding by assessing our hypotheses.
 
