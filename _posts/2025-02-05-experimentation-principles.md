@@ -55,7 +55,7 @@ In a recent experiment, we tested alterations to the search bar placeholder text
 
 <table align="center">
   <th><tr><td><b>Control</b></td><td><b>Variant</b></td></tr></th>
-  <tr><td colspan="2"><img alt="Control search using the phrase 'Restaurants, groceries, dishes'. Variant search using the phrase 'What are you searching for?'" src="/images/posts/experimentation-principles/control_variant.png" /></td></tr>
+  <tr><td colspan="2"><img width="100%" alt="Control search using the phrase 'Restaurants, groceries, dishes'. Variant search using the phrase 'What are you searching for?'" src="/images/posts/experimentation-principles/control_variant.png" /></td></tr>
 </table>
 
 ## Principle 3: We communicate the uncertainty of our experiment results.
