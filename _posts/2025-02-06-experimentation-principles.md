@@ -6,8 +6,8 @@ authors:
   - "Jamie Edgecombe"
   - "Matleen Makko-Boronad"
 excerpt: >
-  Experimentation at Deliveroo has significantly boosted our innovation as a company. It has allowed us to explore new ideas, protected us from unforeseen challenges by preventing wasted time and resources on ineffective initiatives, and promoted intellectual honesty by validating our assumptions.
-date: 2025-02-05
+  Experimentation is at the heart of innovation at Deliveroo. By continuously testing new ideas, we refine our products, mitigate risks, and ensure data-driven decision-making.
+date: 2025-02-06
 ---
 
 Experimentation at Deliveroo has significantly boosted our innovation as a company. It has allowed us to explore new ideas, protected us from unforeseen challenges by preventing wasted time and resources on ineffective initiatives, and promoted intellectual honesty by validating our assumptions.
