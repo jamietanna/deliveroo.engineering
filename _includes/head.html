@@ -8,7 +8,7 @@
 
   {% if page.layout == 'post' %}
     <meta property="article:author" content="{% for author in page.authors %}{{ author }}{% if author != page.authors.last %}, {% endif %}{% endfor %}">
-    <meta property="article:section" content="Engineering Articles">
+    <meta property="article:section" content="Engineering Stories">
   {% else %}
     <meta property="og:type" content="website">
   {% endif %}

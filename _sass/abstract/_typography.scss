@@ -14,10 +14,10 @@ $font-sizes: (
 );
 
 $font-families: (
-  title:            (Helvetica Neue, Helvetica, Arial, sans-serif),
+  title:            (Stratos, Helvetica Neue, Helvetica, Arial, sans-serif),
   title-loaded:     (Stratos, Helvetica Neue, Helvetica, Arial, sans-serif),
-  monospace:        (Menlo, Ubuntu Mono, Lucida Console, Monaco, monospace),
-  monospace-loaded: (SourceCodePro, Menlo, Ubuntu Mono, Lucida Console, Monaco, monospace),
+  monospace:        (PlexSans, Menlo, Ubuntu Mono, Lucida Console, Monaco, monospace),
+  monospace-loaded: (PlexSans, SourceCodePro, Menlo, Ubuntu Mono, Lucida Console, Monaco, monospace),
 );
 
 @function font-size($size) {
@@ -57,15 +57,10 @@ $font-families: (
   white-space: nowrap;
 }
 
-@include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-thin', 100);
-@include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-light', 200);
-@include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-semilight', 300);
-@include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-regular', 400);
-@include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-medium', 500);
 @include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-semibold', 600);
-@include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-bold', 700);
+// @include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-bold', 700);
 @include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-extrabold', 800);
-@include font-face-shim('Stratos', 'stratos/stratosdeliverooweb-black', 900);
+// @include font-face-shim('Stratos', 'stratos/stratosdeliveroo-extrabolditalic', 800, italic);
 
 @include font-face-shim('SourceCodePro', 'sourcecodepro/SourceCodePro-Regular', 400);
 @include font-face-shim('SourceCodePro', 'sourcecodepro/SourceCodePro-Semibold', 600);

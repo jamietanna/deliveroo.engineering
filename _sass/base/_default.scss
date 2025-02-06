@@ -1,22 +1,21 @@
-@mixin link($color: aubergine) {
+@mixin link($color: primary_hover_teal, $hover_colour: link_hover) {
   text-decoration: none;
-  color: color($color, 75%);
+  color: color($color);
   transition-property: color, border;
   transition-duration: 0.4s;
-  border-bottom: 2px solid transparentize(color($color, 75%), 0.8);
 
   &:hover {
-    color: color($color, 50%);
+    color: color($hover_colour);
     transition-duration: 0.2s;
-    border-color: transparentize(color($color, 50%), 0.4);
+    text-decoration: underline;
   } // @link:hover
 } // @link
 
 a {
-  @include link(aubergine);
+  @include link(primary_hover_teal, link_hover);
   @include external-href('deliveroo.engineering') {
     &::after {
-      @include image-replacement('/images/external_link_aubergine', 12px, 12px, $type: 'svg');
+      @include image-replacement('/images/external_link_teal', 12px, 12px, $type: 'svg');
       display: inline-block;
       transition-property: opacity;
       transition-duration: 0.4s;
@@ -34,7 +33,7 @@ a {
 } // a
 
 code, kbd, pre, samp {
-  @include font-family(monospace, 'SourceCodePro');
+  @include font-family(monospace, 'PlexSans');
   line-height: 1.4;
 }
 
@@ -49,20 +48,22 @@ code {
 
 h1, h2, h3, h4 {
   @include font-family(title, 'Stratos');
+  font-feature-settings: "ss01";
   font-weight: 600;
 }
 
 h1 {
-  font-weight: 600;
-  font-size: font-size(large-heading);
-  line-height: 48px;
+  font-weight: 800;
+  font-size: font-size(extra-large-heading);
+  line-height: 68px;
   margin: 0.5em 0;
   text-align: center;
+  padding: 0 10px;
 }
 
 h2 {
-  font-weight: 600;
-  font-size: font-size(medium-heading);
+  font-size: font-size(large-heading);
+  line-height: 44px;
 
   code {
     font-size: font-size(small-heading);
@@ -70,7 +71,9 @@ h2 {
 }
 
 h3 {
+  @include font-family(monospace, 'PlexSans');
   font-size: font-size(small-heading);
+  line-height: 32px;
 
   code {
     font-size: font-size(smallish-heading);

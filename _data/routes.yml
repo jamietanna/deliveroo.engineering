@@ -5,6 +5,6 @@ developer_portal: "https://developers.deliveroo.com/"
 design_blog:      "https://deliveroo.design/"
 navigation:
   - url:   '/articles/'
-    title: 'Articles'
+    title: 'Stories'
   - url:   '/authors/'
-    title: 'Authors'
+    title: 'Team Voices'

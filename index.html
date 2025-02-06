@@ -3,8 +3,10 @@ layout: default
 title: deliveroo.engineering
 ---
 
-<h1>The Deliveroo engineering team blog</h1>
-<p class="tagline">Only awesome code.</p>
+<div id="banner">
+  <h1>Deliveroo Tech Blog</h1>
+  <p class="tagline">Our tech teams tackle some of the most exciting challenges, building systems that impact millions daily.</p>
+</div>
 
 <section id="latest-post">
   <div class="post latest">
@@ -22,7 +24,7 @@ title: deliveroo.engineering
 {% if site.posts.size > site.data.offsets.latest_articles %}
   <hr>
 
-  <h2>Recent Articles</h2>
+  <h2>Latest from Our Tech Team</h2>
   <section id="recent-posts">
     {% for _page in site.posts limit: site.data.offsets.recent_articles offset: site.data.offsets.latest_articles %}
       <div class="post recent">
@@ -44,7 +46,7 @@ title: deliveroo.engineering
 {% if site.posts.size > other_articles_offset %}
   <hr>
 
-  <h2>Other Articles</h2>
+  <h2>More Engineering Stories</h2>
   <section id="other-articles">
     <ul class="articles">
       {% for _page in site.posts limit: site.data.offsets.other_articles offset: other_articles_offset %}
@@ -61,6 +63,6 @@ title: deliveroo.engineering
         divided_by: site.paginate |
         plus: 1
     %}
-    <p class="more"><a href="{{ site.data.routes.articles }}page{{ page_offset }}">More articles…</a></p>
+    <p class="more"><a href="{{ site.data.routes.articles }}page{{ page_offset }}">More stories…</a></p>
   </section>
 {% endif %}
