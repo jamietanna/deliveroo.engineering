@@ -4,11 +4,11 @@ title: "Gina Wiley: My Journey So Far as a Senior Engineering Manager"
 authors:
   - "Gina Wiley"
 excerpt: >
-  Read about one Senior Engineering Manager's journey into making an impact at Deliveroo.
+  Gina Wiley is a Senior Engineering Manager. Read more about her journey and what our engineering culture is like here at Deliveroo.
 date: 2025-02-19
 ---
 
-**_Could you introduce yourself and your role at Deliveroo??_**
+**_Could you introduce yourself and your role at Deliveroo?_**
 
 I'm Gina, I'm a Senior Engineering Manager at Deliveroo. I lead our Consumer Experience group in our New Verticals engineering team, and I've been at Deliveroo for five years.
 
