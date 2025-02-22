@@ -33,7 +33,7 @@ a {
 } // a
 
 code, kbd, pre, samp {
-  @include font-family(monospace, 'PlexSans');
+  @include font-family(monospace);
   line-height: 1.4;
 }
 
@@ -71,7 +71,6 @@ h2 {
 }
 
 h3 {
-  @include font-family(monospace, 'PlexSans');
   font-size: font-size(small-heading);
   line-height: 32px;
 

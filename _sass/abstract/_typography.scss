@@ -16,8 +16,8 @@ $font-sizes: (
 $font-families: (
   title:            (Stratos, Helvetica Neue, Helvetica, Arial, sans-serif),
   title-loaded:     (Stratos, Helvetica Neue, Helvetica, Arial, sans-serif),
-  monospace:        (PlexSans, Menlo, Ubuntu Mono, Lucida Console, Monaco, monospace),
-  monospace-loaded: (PlexSans, SourceCodePro, Menlo, Ubuntu Mono, Lucida Console, Monaco, monospace),
+  monospace:        (Menlo, Ubuntu Mono, Lucida Console, Monaco, monospace),
+  monospace-loaded: (SourceCodePro, Menlo, Ubuntu Mono, Lucida Console, Monaco, monospace),
 );
 
 @function font-size($size) {
