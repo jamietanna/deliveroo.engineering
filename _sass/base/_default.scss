@@ -33,7 +33,7 @@ a {
 } // a
 
 code, kbd, pre, samp {
-  @include font-family(monospace);
+  @include font-family(monospace, 'SourceCodePro');
   line-height: 1.4;
 }
 
